@@ -40,6 +40,8 @@ A JavaScript implementation of the JSON Object Signing and Encryption (JOSE) for
 
 ## Installing ##
 
+browserify src/index.js -p [ tsify --noImplicitAny] > src/bundle.js
+
 To install the latest from [NPM](https://npmjs.com/):
 
 ```shell
